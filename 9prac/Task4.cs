@@ -8,7 +8,7 @@ namespace _9prac
 {
     internal class Program4
     {
-        static void Main(string[] args)
+        static void Main0(string[] args)
         {
             string email = "user.example@gmail.com";
 
@@ -31,9 +31,6 @@ namespace _9prac
                 string maskedEmail = maskedUserName + domain;
 
                 Console.WriteLine($"Замаскированный email: {maskedEmail}");
-
-                // Проверяем правильность маскировки
-                Console.WriteLine($"Проверка: {(maskedEmail == "*****@gmail.com" ? "Совпадает" : "Не совпадает")}");
             }
             else
             {
